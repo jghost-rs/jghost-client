@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="185.0" prefWidth="339.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label id="exception_id" alignment="CENTER" layoutX="6.0" layoutY="14.0" prefHeight="17.0" prefWidth="319.0" text="An exception has been thrown!" />
+      <TextArea id="exception_stack" editable="false" layoutX="10.0" layoutY="40.0" prefHeight="135.0" prefWidth="319.0" />
+   </children>
+</AnchorPane>
