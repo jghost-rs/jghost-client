@@ -4,4 +4,3 @@ class AuthenticationState
 
 object InitialResponse extends AuthenticationState
 object ValidationResponse extends AuthenticationState
-object Authenticated extends AuthenticationState
